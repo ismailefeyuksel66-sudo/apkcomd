@@ -3,8 +3,7 @@ import os
 import sys
 import urllib.request
 
-# GitHub'daki Raw veritabanı adresimiz (Kullanıcı adını buraya yazabilirsin)
-REMOTE_DB_URL = "https://raw.githubusercontent.com/KULLANICI_ADIN/apkcomd/main/packages.txt"
+REMOTE_DB_URL = "https://raw.githubusercontent.com/ismailefeyuksel66-sudo/apkcomd/main/packages.txt"
 
 def load_remote_database():
     """Uzak sunucudaki (GitHub) paket listesini indirir ve okur."""
