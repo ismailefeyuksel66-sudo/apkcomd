@@ -15,7 +15,7 @@ if ! command -v python3 &> /dev/null; then
 fi
 
 # GitHub'daki apkcomd.py dosyasının Raw adresi (Kullanıcı adını kendi hesabınla değiştir)
-SCRIPT_URL="https://raw.githubusercontent.com/KULLANICI_ADIN/apkcomd/main/apkcomd.py"
+SCRIPT_URL="https://raw.githubusercontent.com/ismailefeyuksel66-sudo/apkcomd/main/apkcomd.py"
 INSTALL_PATH="/usr/local/bin/apkcomd"
 
 echo -e "${GREEN}[*] Betik uzak depodan indiriliyor...${NC}"
